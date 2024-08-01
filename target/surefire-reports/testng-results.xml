@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching the Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excelsheet]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excelsheet]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excelsheet]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excelsheet]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-31T18:17:23 IST" name="Suite" finished-at="2024-07-31T18:18:05 IST" duration-ms="41615">
+    <groups>
+    </groups>
+    <test started-at="2024-07-31T18:17:23 IST" name="Test" finished-at="2024-07-31T18:18:05 IST" duration-ms="41615">
+      <class name="ats_Test.ATS_TestClass">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ats_Test.ATS_TestClass@32eff876]" started-at="2024-07-31T18:17:23 IST" name="launchBrowser" finished-at="2024-07-31T18:17:31 IST" duration-ms="7707" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching the Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="process()[pri:0, instance:ats_Test.ATS_TestClass@32eff876]" started-at="2024-07-31T18:17:31 IST" name="process" finished-at="2024-07-31T18:18:05 IST" duration-ms="33835" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading data from excelsheet]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excelsheet]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excelsheet]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excelsheet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- process -->
+        <test-method signature="validate_actions()[pri:0, instance:ats_Test.ATS_TestClass@32eff876]" started-at="2024-07-31T18:18:05 IST" name="validate_actions" finished-at="2024-07-31T18:18:05 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_actions -->
+      </class> <!-- ats_Test.ATS_TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
