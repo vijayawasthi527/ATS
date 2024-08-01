@@ -28,10 +28,10 @@ public class Create_Meeting_Page
 	@FindBy (id = "related_module") private WebElement relatedTo;
 	@FindBy (id = "select2-related_module_id-container")private WebElement collaborater;
 	@FindBy (xpath = "//span[@class='select2-search select2-search--dropdown']//input[@role='searchbox']")private WebElement collaboratorSearchBox;
-	@FindBy (xpath = "//span[@id='select2-related_module_id-container' and @role='textbox' and @aria-readonly='true']")private WebElement collabNeha;
+	@FindBy (xpath = "//*[@class='select2-result__title']")private WebElement collabNeha;
 	@FindBy (xpath = "//*[@class='select2-search__field']")private WebElement attandees;
-	
-	//span[@id='select2-related_module_id-container']
+	@FindBy (xpath = "//*[@class='note-editable card-block']")private WebElement description_information;
+	@FindBy (xpath = "//*[@class='btn btn-primary btn-lg mr-1']")private WebElement submitButton;
 	
 	
 	public Create_Meeting_Page(WebDriver driver)
@@ -116,16 +116,36 @@ public class Create_Meeting_Page
 		relatedTo.click();
 		Select s5=new Select(relatedTo);
 		s5.selectByValue("2");
+		
 	}
 	
-	public void collaborator_click() throws InterruptedException
+	public void collaborator_click(WebDriver driver) throws InterruptedException
 	{
-		collaborater.click();
-		collaboratorSearchBox.sendKeys("n");
-		Utility.wait(5000);
-		collabNeha.click();
+		//collaborater.click();
+		
+		Actions act=new Actions(driver);
+		act.moveToElement(collaborater).click().build().perform();
+		act.moveToElement(collaboratorSearchBox).sendKeys("Neha").build().perform();
+		Thread.sleep(2000);
+		act.moveToElement(collabNeha).click().build().perform();
+		
 	}
 	
+	public void meeting_Attandees()
+	{
+		attandees.sendKeys("Mirza Baig");
+		attandees.sendKeys(Keys.ENTER);
+	}
+	
+	public void description()
+	{
+		description_information.sendKeys("This is the testing note.plese ignore it");
+	}
+	
+	public void submit()
+	{
+		submitButton.click();
+	}
 	
 
 }

@@ -42,23 +42,24 @@ public class ATS_TestClass extends Base
 	@BeforeMethod
 	public void process() throws InterruptedException, EncryptedDocumentException, IOException 
 	{
-		Utility.scrolling(0,200);
+		Utility.scrolling(0,400);
+		Thread.sleep(2000);
 		homepage.clickOnClientLogin();
 		
 		loginpage.enterEmail(Utility.readingDataFromExcel(1,0));
 		loginpage.enterpassword(Utility.readingDataFromExcel(1,1));
 		loginpage.clickSigninButton();
 		
-		Utility.wait(5000);
+		Thread.sleep(5000);
 		dashBoard.clickMenuOption();
 		
 		
-		Utility.wait(1500);
+		Thread.sleep(2000);
 		dashBoard.left_slider(driver);
 		Utility.scrolling(0,200);
 		dashBoard.clickTaskMeetings();
 		
-		Utility.wait(3000);;
+		Thread.sleep(3000);
 		dashBoard.clickMeetings();
 		
 		meetingPage.create_Meeting();
@@ -67,7 +68,7 @@ public class ATS_TestClass extends Base
 		
 		createJob.meeting_type();
 		
-		createJob.meeting_url(Utility.readingDataFromExcel(16,0));
+		createJob.meeting_url(Utility.readingDataFromExcel(5,0));
 		
 		Utility.scrolling(0,400);
 		
@@ -93,7 +94,13 @@ public class ATS_TestClass extends Base
 		
 		createJob.related_to();
 		
-		createJob.collaborator_click();
+		createJob.collaborator_click(driver);
+		
+		createJob.meeting_Attandees();
+		
+		createJob.description();
+		
+		createJob.submit();
 		
 		
 		

@@ -1,7 +1,5 @@
 package ats_POM;
 
-
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,50 +8,29 @@ import org.openqa.selenium.support.PageFactory;
 public class Login_Page 
 {
 	
-	@FindBy (id = "email") private WebElement emailField;
-	@FindBy (id = "password") private WebElement passwordfield;
-	@FindBy (xpath = "//*[contains(text(),'Sign in')]") private WebElement signInButton;
-	@FindBy (name = "remember") private WebElement rememberCheckBox;
-	@FindBy (xpath = "//*[contains(text(),'Forgot Your Password?')]") private WebElement forgetPassword;
-	@FindBy (id = "client") private WebElement clientButton;
-	@FindBy (id = "candidate") private WebElement candidateButton;
+	@FindBy(xpath = "//*[@id='email']")private WebElement emailid;
+	@FindBy(xpath = "//*[@id='password']")private WebElement password;
+	@FindBy(xpath = "//*[@class='btn btn-primary w-100']")private WebElement signinButton;
+	
+	
 	
 	public Login_Page(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
 	}
 	
+	public void enterEmail(String emailID)
+	{
+		emailid.sendKeys(emailID);
+	}
+	public void enterpassword(String enterpassword)
+	{
+		password.sendKeys(enterpassword);
+	}
+	
 	public void clickSigninButton()
 	{
-		signInButton.click();
+		signinButton.click();
 	}
-	
-	public void clickForgetPassword()
-	{
-		forgetPassword.click();
-	}
-	
-	public void clickOnClientButton()
-	{
-		clientButton.click();
-	}
-	
-	public void clickOnCandidateButton()
-	{
-		candidateButton.click();
-	}
-	
-	public void enterEmail(String emailid)
-	{
-		emailField.sendKeys(emailid);
-	}
-	
-	public void enterpassword(String password)
-	{
-		passwordfield.sendKeys(password);
-	}
-	
-	
-	
 
 }

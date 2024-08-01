@@ -44,11 +44,11 @@ public class DashBoard_Page
 	public void left_slider(WebDriver driver)
 	{
 		leftSlider.click();
-//		JavascriptExecutor js = (JavascriptExecutor) driver;
-//		js.executeScript("arguments[0].scrollIntoView(true);",Taskm);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView(true);",Taskm);
 		
-		Actions act=new Actions(driver);
-		act.moveToElement(Taskm).keyDown(Keys.ARROW_DOWN).release().keyDown(Keys.ARROW_DOWN).release().build().perform();
+		//Actions act=new Actions(driver);
+		//act.moveToElement(Taskm).build().perform();
 		
 	}
 	

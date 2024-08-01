@@ -3,7 +3,7 @@
   <groupId>ATS_Project</groupId>
   <artifactId>ATS_Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-   <build>
+  <build>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -13,7 +13,7 @@
           <configuration>
             <suiteXmlFiles>
 				<suiteXmlFile>
-					ATS.xml
+					testng.xml
 				</suiteXmlFile>
 			</suiteXmlFiles>
           </configuration>
@@ -75,5 +75,5 @@
     <artifactId>poi-ooxml</artifactId>
     <version>5.2.5</version>
 </dependency>
-	  </dependencies>
+</dependencies>
 </project>

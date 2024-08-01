@@ -5,10 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Meeting_Page 
-{
-	@FindBy (xpath = "//*[@class='card-header-action']/a") private WebElement createMeeting;
+public class Meeting_Page {
 	
+	@FindBy(xpath = "//*[@href='https://ats.aistechnolabs.pro/meetings/create']") private WebElement createMeetingButton;
 	
 	public Meeting_Page(WebDriver driver)
 	{
@@ -17,7 +16,7 @@ public class Meeting_Page
 	
 	public void create_Meeting()
 	{
-		createMeeting.click();
+		createMeetingButton.click();
 	}
 
 }
