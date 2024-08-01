@@ -37,7 +37,8 @@ public class Utility extends Base
 	
 	public static void wait(int k) throws InterruptedException
 	{
-		Thread.sleep(k);
+		Thread.sleep(k);  
+	
 	}
 	
 	
