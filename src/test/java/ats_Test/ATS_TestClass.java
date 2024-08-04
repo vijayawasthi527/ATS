@@ -3,7 +3,8 @@ package ats_Test;
 import base.Base;
 
 import java.io.IOException;
-
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -11,6 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import ats_Utility.*;
@@ -18,7 +20,7 @@ import ats_POM.DashBoard_Page;
 
 import ats_POM.*;
 
-
+@Listeners(listners.Listner_ATS.class)
 public class ATS_TestClass extends Base
 {
 	Home_page homepage;
@@ -31,6 +33,7 @@ public class ATS_TestClass extends Base
 	
 	public void launchBrowser() throws InterruptedException
 	{
+		Logger logger;
 		launchATS();
 		homepage=new Home_page(driver);
 		loginpage=new Login_Page(driver);
@@ -42,6 +45,7 @@ public class ATS_TestClass extends Base
 	@BeforeMethod
 	public void process() throws InterruptedException, EncryptedDocumentException, IOException 
 	{
+		
 		Utility.scrolling(0,400);
 		Thread.sleep(2000);
 		homepage.clickOnClientLogin();
@@ -54,6 +58,14 @@ public class ATS_TestClass extends Base
 		dashBoard.clickMenuOption();
 		
 		
+		
+		
+	}
+	
+	
+	@Test
+	public void validate_actions() throws InterruptedException, EncryptedDocumentException, IOException
+	{
 		Thread.sleep(2000);
 		dashBoard.left_slider(driver);
 		Utility.scrolling(0,200);
@@ -101,18 +113,6 @@ public class ATS_TestClass extends Base
 		createJob.description();
 		
 		createJob.submit();
-		
-		
-		
-		
-
-	}
-	
-	
-	@Test
-	public void validate_actions() throws InterruptedException
-	{
-		
 	}
 	
 }

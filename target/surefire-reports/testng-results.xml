@@ -16,27 +16,27 @@
     <line>
       <![CDATA[Reading data from excelsheet]]>
     </line>
+    <line>
+      <![CDATA[Taking ScreenShot]]>
+    </line>
+    <line>
+      <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\coverFoxvalidate_actions_04.08.2024.12.54.52.png]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-08-01T23:05:17 IST" name="Suite" finished-at="2024-08-01T23:06:12 IST" duration-ms="54024">
+  <suite started-at="2024-08-04T12:54:06 IST" name="Suite" finished-at="2024-08-04T12:54:53 IST" duration-ms="47102">
     <groups>
     </groups>
-    <test started-at="2024-08-01T23:05:17 IST" name="Test" finished-at="2024-08-01T23:06:12 IST" duration-ms="54024">
+    <test started-at="2024-08-04T12:54:06 IST" name="Test" finished-at="2024-08-04T12:54:53 IST" duration-ms="47102">
       <class name="ats_Test.ATS_TestClass">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ats_Test.ATS_TestClass@32eff876]" started-at="2024-08-01T23:05:18 IST" name="launchBrowser" finished-at="2024-08-01T23:05:25 IST" duration-ms="7953" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ats_Test.ATS_TestClass@3ce1e309]" started-at="2024-08-04T12:54:06 IST" name="launchBrowser" finished-at="2024-08-04T12:54:13 IST" duration-ms="7645" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="process()[pri:0, instance:ats_Test.ATS_TestClass@32eff876]" started-at="2024-08-01T23:05:25 IST" name="process" finished-at="2024-08-01T23:06:12 IST" duration-ms="46011" status="PASS">
+        <test-method is-config="true" signature="process()[pri:0, instance:ats_Test.ATS_TestClass@3ce1e309]" started-at="2024-08-04T12:54:13 IST" name="process" finished-at="2024-08-04T12:54:32 IST" duration-ms="18462" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
             <line>
               <![CDATA[Reading data from excelsheet]]>
             </line>
@@ -45,8 +45,20 @@
             </line>
           </reporter-output>
         </test-method> <!-- process -->
-        <test-method signature="validate_actions()[pri:0, instance:ats_Test.ATS_TestClass@32eff876]" started-at="2024-08-01T23:06:12 IST" name="validate_actions" finished-at="2024-08-01T23:06:12 IST" duration-ms="2" status="PASS">
+        <test-method signature="validate_actions()[pri:0, instance:ats_Test.ATS_TestClass@3ce1e309]" started-at="2024-08-04T12:54:32 IST" name="validate_actions" finished-at="2024-08-04T12:54:52 IST" duration-ms="20455" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Reading data from excelsheet]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excelsheet]]>
+            </line>
+            <line>
+              <![CDATA[Taking ScreenShot]]>
+            </line>
+            <line>
+              <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\coverFoxvalidate_actions_04.08.2024.12.54.52.png]]>
+            </line>
           </reporter-output>
         </test-method> <!-- validate_actions -->
       </class> <!-- ats_Test.ATS_TestClass -->
