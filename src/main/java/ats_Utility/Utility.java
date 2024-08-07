@@ -47,7 +47,7 @@ public class Utility extends Base
 		Reporter.log("Taking ScreenShot",true);
 		String timeStamp=new SimpleDateFormat("dd.MM.yyyy.HH.mm.ss").format(new Date());
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File dest=new File("C:\\Users\\vijay\\Desktop\\Class Notes\\Practice Work\\coverFox"+TCID+"_"+timeStamp+".png");
+		File dest=new File("C:\\Users\\vijay\\Desktop\\Class Notes\\Practice Work\\ATS"+TCID+"_"+timeStamp+".png");
 		Reporter.log("Saved ScreenShot at"+dest,true);
 		FileHandler.copy(src, dest);
 		

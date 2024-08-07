@@ -15,6 +15,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import com.aventstack.extentreports.model.Report;
+
 import ats_Utility.*;
 import ats_POM.DashBoard_Page;
 
@@ -63,8 +66,8 @@ public class ATS_TestClass extends Base
 	}
 	
 	
-	@Test
-	public void validate_actions() throws InterruptedException, EncryptedDocumentException, IOException
+	@Test(priority = 0)
+	public void validate_MeetingCreation() throws InterruptedException, EncryptedDocumentException, IOException
 	{
 		Thread.sleep(2000);
 		dashBoard.left_slider(driver);
@@ -77,10 +80,12 @@ public class ATS_TestClass extends Base
 		meetingPage.create_Meeting();
 		
 		createJob.createJob_Title(Utility.readingDataFromExcel(4,0));
+		Reporter.log("Reading job title from Sheet",true);
 		
 		createJob.meeting_type();
 		
 		createJob.meeting_url(Utility.readingDataFromExcel(5,0));
+		Reporter.log("Entering the Meeting URL",true);
 		
 		Utility.scrolling(0,400);
 		
@@ -113,6 +118,13 @@ public class ATS_TestClass extends Base
 		createJob.description();
 		
 		createJob.submit();
+		
+	}
+	
+	@Test(priority = 1)
+	public void validate_ClientCreation()
+	{
+		
 	}
 	
 }

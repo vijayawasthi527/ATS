@@ -22,6 +22,8 @@ public class DashBoard_Page
 	@FindBy (xpath = "//*[@href='https://ats.aistechnolabs.pro/meetings' and @class='nav-link']") private WebElement meetings;
 	@FindBy (xpath = "(//*[@class='nicescroll-cursors'])[1]")private WebElement leftSlider;
 	@FindBy (xpath = "//span[normalize-space()='Task & Meetings']")private WebElement Taskm;
+	@FindBy (xpath = "//*[@href='https://ats.aistechnolabs.pro/clients']")private WebElement clientClick;
+	
 	
 	
 	
