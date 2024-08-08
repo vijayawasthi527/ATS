@@ -9,8 +9,8 @@
       <class name="ats_Test.ATS_TestClass">
         <methods>
           <include name="process"/>
-          <include name="validate_actions"/>
           <include name="launchBrowser"/>
+          <include name="validate_ClientCreation"/>
         </methods>
       </class> <!-- ats_Test.ATS_TestClass -->
     </classes>

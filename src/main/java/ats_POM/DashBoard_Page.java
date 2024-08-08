@@ -60,6 +60,11 @@ public class DashBoard_Page
 		meetings.click();
 	}
 	
+	public void clickOnClient()
+	{
+		clientClick.click();
+	}
+	
 	
 	
 	
