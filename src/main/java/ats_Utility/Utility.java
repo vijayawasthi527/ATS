@@ -14,6 +14,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
+
+import com.github.javafaker.Faker;
+
 import java.util.Date;
 import java.util.Properties;
 import base.Base;
@@ -21,9 +24,10 @@ import base.Base;
 
 public class Utility extends Base
 {
+	public static String cName="";
 	public static String readingDataFromExcel(int row,int cell) throws EncryptedDocumentException, IOException
 	{
-		Reporter.log("Reading data from excelsheet",true);
+		Reporter.log("Reading data from excelsheet",false);
 		FileInputStream myFile=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\ATS_LoginDetails.xlsx");
 		Sheet mySheet = WorkbookFactory.create(myFile).getSheet("Sheet1");
 		String data = mySheet.getRow(row).getCell(cell).getStringCellValue();
@@ -65,6 +69,99 @@ public class Utility extends Base
 		String value=prop.getProperty(key);
 		return value;
 	}
+	
+	public static String streetName()
+	{
+		Faker faker=new Faker();
+		String street = faker.address().streetAddress();
+		return street;
+		}
+	
+	public static String cityName()
+	{
+		Faker faker=new Faker();
+		String city=faker.address().cityName();
+		return city;
+	}
+	public static String stateName()
+	{
+		Faker faker=new Faker();
+		String state=faker.address().state();
+		return state;
+	}
+	
+	public static String zipCode()
+	{
+		Faker faker=new Faker();
+		String code=faker.address().zipCode();
+		return code;
+	}
+	
+	public static String firstName()
+	{
+		Faker faker=new Faker();
+		String fName=faker.name().firstName();
+		return fName;
+	}
+	
+	public static String lastName()
+	{
+		Faker faker=new Faker();
+		String lName = faker.name().lastName();
+		return lName;
+	}
+	
+	public static String phone()
+	{
+		Faker faker=new Faker();
+		String cellNumber = faker.phoneNumber().cellPhone();
+		return cellNumber;
+	}
+	
+	public static String companyName()
+	{
+		Faker faker=new Faker();
+		cName=faker.company().name();
+		return cName;
+	}
+	
+	public static String companyURl()
+	{
+		Faker faker=new Faker();
+		String cURL = faker.company().url();
+		String comURL="https://"+cURL;
+		return comURL;
+	}
+	
+	public static String jobTitle()
+	{
+		Faker faker=new Faker();
+		String jtitle=faker.job().title();
+		return jtitle;
+	}
+	
+	
+	public static String aboutCompany()
+	{
+		Faker faker=new Faker();
+		String about=faker.company().buzzword();
+		return about;
+	}
+	
+	public static String emailAddress()
+	{
+		Faker faker=new Faker();
+		String email=faker.internet().emailAddress();
+		return email;
+	}
+	
+	public static String country()
+	{
+		Faker faker=new Faker();
+		String countryName=faker.address().country();
+		return countryName;
+	}
+	
 	
 	
 	

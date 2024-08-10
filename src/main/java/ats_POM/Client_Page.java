@@ -8,6 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import ats_Utility.Utility;
+
 public class Client_Page 
 {
 	@FindBy(xpath = "//*[@href='https://ats.aistechnolabs.pro/clients/create']")private WebElement createClient;
@@ -120,7 +122,7 @@ public class Client_Page
 	public void countrySugest(WebDriver driver)
 	{
 		Actions act3=new Actions(driver);
-		act3.moveToElement(countrySuggestion).sendKeys("india").sendKeys(Keys.ENTER).build().perform();
+		act3.moveToElement(countrySuggestion).sendKeys(Utility.country()).sendKeys(Keys.ENTER).build().perform();
 	}
 	
 	public void sameAddress()

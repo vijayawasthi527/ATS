@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Launching Browser]]>
@@ -11,49 +11,76 @@
       <![CDATA[Reading data from excelsheet]]>
     </line>
     <line>
+      <![CDATA[Clicked on Client]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Create Client]]>
+    </line>
+    <line>
+      <![CDATA[Entered the Company Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[Entered Fax Number]]>
+    </line>
+    <line>
+      <![CDATA[Entered Company Website]]>
+    </line>
+    <line>
+      <![CDATA[Industry Selected]]>
+    </line>
+    <line>
+      <![CDATA[Source Selected]]>
+    </line>
+    <line>
+      <![CDATA[About Company Entered]]>
+    </line>
+    <line>
+      <![CDATA[Entered Street Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered City Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered State Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Zip Code]]>
+    </line>
+    <line>
+      <![CDATA[Country Selected]]>
+    </line>
+    <line>
       <![CDATA[Reading data from excelsheet]]>
     </line>
     <line>
-      <![CDATA[Reading job title from Sheet]]>
+      <![CDATA[Contract Uploaded]]>
     </line>
     <line>
       <![CDATA[Reading data from excelsheet]]>
     </line>
     <line>
-      <![CDATA[Entering the Meeting URL]]>
+      <![CDATA[Attached Other uploaded]]>
     </line>
     <line>
-      <![CDATA[Taking ScreenShot]]>
+      <![CDATA[Clicked on Submit Button]]>
     </line>
     <line>
-      <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\ATSvalidate_MeetingCreation_08.08.2024.23.30.30.png]]>
-    </line>
-    <line>
-      <![CDATA[Launching Browser]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
-      <![CDATA[Taking ScreenShot]]>
-    </line>
-    <line>
-      <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\ATSvalidate_ClientCreation_08.08.2024.23.31.21.png]]>
+      <![CDATA[Company Creation Varification Success!!!! Test Case Passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-08-08T23:29:27 IST" name="Default suite" finished-at="2024-08-08T23:31:21 IST" duration-ms="114258">
+  <suite started-at="2024-08-10T18:46:33 IST" name="Default suite" finished-at="2024-08-10T18:48:00 IST" duration-ms="87093">
     <groups>
     </groups>
-    <test started-at="2024-08-08T23:29:27 IST" name="Default test" finished-at="2024-08-08T23:31:21 IST" duration-ms="114258">
+    <test started-at="2024-08-10T18:46:33 IST" name="Default test" finished-at="2024-08-10T18:48:00 IST" duration-ms="87093">
       <class name="ats_Test.ATS_TestClass">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ats_Test.ATS_TestClass@639c2c1d]" started-at="2024-08-08T23:29:27 IST" name="launchBrowser" finished-at="2024-08-08T23:29:27 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ats_Test.ATS_TestClass@51399530]" started-at="2024-08-10T18:46:33 IST" name="launchBrowser" finished-at="2024-08-10T18:46:33 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="process()[pri:0, instance:ats_Test.ATS_TestClass@639c2c1d]" started-at="2024-08-08T23:29:27 IST" name="process" finished-at="2024-08-08T23:30:09 IST" duration-ms="41620" status="PASS">
+        <test-method is-config="true" signature="process()[pri:0, instance:ats_Test.ATS_TestClass@51399530]" started-at="2024-08-10T18:46:33 IST" name="process" finished-at="2024-08-10T18:47:15 IST" duration-ms="41269" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching Browser]]>
@@ -66,122 +93,67 @@
             </line>
           </reporter-output>
         </test-method> <!-- process -->
-        <test-method signature="validate_MeetingCreation()[pri:0, instance:ats_Test.ATS_TestClass@639c2c1d]" started-at="2024-08-08T23:30:09 IST" name="validate_MeetingCreation" finished-at="2024-08-08T23:30:30 IST" duration-ms="20802" status="PASS">
+        <test-method signature="validate_ClientCreation()[pri:1, instance:ats_Test.ATS_TestClass@51399530]" started-at="2024-08-10T18:47:15 IST" name="validate_ClientCreation" finished-at="2024-08-10T18:48:00 IST" duration-ms="45605" status="PASS">
           <reporter-output>
             <line>
+              <![CDATA[Clicked on Client]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Create Client]]>
+            </line>
+            <line>
+              <![CDATA[Entered the Company Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[Entered Fax Number]]>
+            </line>
+            <line>
+              <![CDATA[Entered Company Website]]>
+            </line>
+            <line>
+              <![CDATA[Industry Selected]]>
+            </line>
+            <line>
+              <![CDATA[Source Selected]]>
+            </line>
+            <line>
+              <![CDATA[About Company Entered]]>
+            </line>
+            <line>
+              <![CDATA[Entered Street Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered City Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered State Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Zip Code]]>
+            </line>
+            <line>
+              <![CDATA[Country Selected]]>
+            </line>
+            <line>
               <![CDATA[Reading data from excelsheet]]>
             </line>
             <line>
-              <![CDATA[Reading job title from Sheet]]>
+              <![CDATA[Contract Uploaded]]>
             </line>
             <line>
               <![CDATA[Reading data from excelsheet]]>
             </line>
             <line>
-              <![CDATA[Entering the Meeting URL]]>
+              <![CDATA[Attached Other uploaded]]>
             </line>
             <line>
-              <![CDATA[Taking ScreenShot]]>
+              <![CDATA[Clicked on Submit Button]]>
             </line>
             <line>
-              <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\ATSvalidate_MeetingCreation_08.08.2024.23.30.30.png]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validate_MeetingCreation -->
-        <test-method is-config="true" signature="process()[pri:0, instance:ats_Test.ATS_TestClass@639c2c1d]" started-at="2024-08-08T23:30:30 IST" name="process" finished-at="2024-08-08T23:31:18 IST" duration-ms="48186" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Launching Browser]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- process -->
-        <test-method signature="validate_ClientCreation()[pri:1, instance:ats_Test.ATS_TestClass@639c2c1d]" started-at="2024-08-08T23:31:18 IST" name="validate_ClientCreation" finished-at="2024-08-08T23:31:21 IST" duration-ms="2750" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=127.0.6533.90)
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f4d9b5d35e57998e749781e3ed4da846, clickElement {id=f.22712169A7DEB0A5BD0C5660DB16FA2E.d.B4F008721ECDEC5950FCF937CB74EA77.e.127}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57534/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f4d9b5d35e57998e749781e3ed4da846)] -> xpath: //*[@href='https://ats.aistechnolabs.pro/clients']]
-Session ID: f4d9b5d35e57998e749781e3ed4da846]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=127.0.6533.90)
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f4d9b5d35e57998e749781e3ed4da846, clickElement {id=f.22712169A7DEB0A5BD0C5660DB16FA2E.d.B4F008721ECDEC5950FCF937CB74EA77.e.127}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57534/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f4d9b5d35e57998e749781e3ed4da846)] -> xpath: //*[@href='https://ats.aistechnolabs.pro/clients']]
-Session ID: f4d9b5d35e57998e749781e3ed4da846
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at ats_POM.DashBoard_Page.clickOnClient(DashBoard_Page.java:65)
-at ats_Test.ATS_TestClass.validate_ClientCreation(ATS_TestClass.java:139)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Taking ScreenShot]]>
-            </line>
-            <line>
-              <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\ATSvalidate_ClientCreation_08.08.2024.23.31.21.png]]>
+              <![CDATA[Company Creation Varification Success!!!! Test Case Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- validate_ClientCreation -->

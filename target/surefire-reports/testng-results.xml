@@ -11,58 +11,76 @@
       <![CDATA[Reading data from excelsheet]]>
     </line>
     <line>
-      <![CDATA[Reading data from excelsheet]]>
+      <![CDATA[Clicked on Client]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Create Client]]>
+    </line>
+    <line>
+      <![CDATA[Entered the Company Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[Entered Fax Number]]>
+    </line>
+    <line>
+      <![CDATA[Entered Company Website]]>
+    </line>
+    <line>
+      <![CDATA[Industry Selected]]>
+    </line>
+    <line>
+      <![CDATA[Source Selected]]>
+    </line>
+    <line>
+      <![CDATA[About Company Entered]]>
+    </line>
+    <line>
+      <![CDATA[Entered Street Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered City Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered State Name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Zip Code]]>
+    </line>
+    <line>
+      <![CDATA[Country Selected]]>
     </line>
     <line>
       <![CDATA[Reading data from excelsheet]]>
     </line>
     <line>
-      <![CDATA[Reading data from excelsheet]]>
+      <![CDATA[Contract Uploaded]]>
     </line>
     <line>
       <![CDATA[Reading data from excelsheet]]>
     </line>
     <line>
-      <![CDATA[Reading data from excelsheet]]>
+      <![CDATA[Attached Other uploaded]]>
     </line>
     <line>
-      <![CDATA[Reading data from excelsheet]]>
+      <![CDATA[Clicked on Submit Button]]>
     </line>
     <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from excelsheet]]>
-    </line>
-    <line>
-      <![CDATA[Taking ScreenShot]]>
-    </line>
-    <line>
-      <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\ATSvalidate_ClientCreation_09.08.2024.00.22.56.png]]>
+      <![CDATA[Company Creation Varification Success!!!! Test Case Passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-08-09T00:21:51 IST" name="Suite" finished-at="2024-08-09T00:22:57 IST" duration-ms="65317">
+  <suite started-at="2024-08-10T19:07:39 IST" name="Suite" finished-at="2024-08-10T19:09:11 IST" duration-ms="91712">
     <groups>
     </groups>
-    <test started-at="2024-08-09T00:21:51 IST" name="Test" finished-at="2024-08-09T00:22:57 IST" duration-ms="65317">
+    <test started-at="2024-08-10T19:07:39 IST" name="Test" finished-at="2024-08-10T19:09:11 IST" duration-ms="91712">
       <class name="ats_Test.ATS_TestClass">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ats_Test.ATS_TestClass@74e52303]" started-at="2024-08-09T00:21:51 IST" name="launchBrowser" finished-at="2024-08-09T00:21:52 IST" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ats_Test.ATS_TestClass@41a2befb]" started-at="2024-08-10T19:07:39 IST" name="launchBrowser" finished-at="2024-08-10T19:07:39 IST" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="process()[pri:0, instance:ats_Test.ATS_TestClass@74e52303]" started-at="2024-08-09T00:21:52 IST" name="process" finished-at="2024-08-09T00:22:21 IST" duration-ms="29384" status="PASS">
+        <test-method is-config="true" signature="process()[pri:0, instance:ats_Test.ATS_TestClass@41a2befb]" started-at="2024-08-10T19:07:39 IST" name="process" finished-at="2024-08-10T19:08:16 IST" duration-ms="36357" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching Browser]]>
@@ -75,49 +93,67 @@
             </line>
           </reporter-output>
         </test-method> <!-- process -->
-        <test-method signature="validate_ClientCreation()[pri:1, instance:ats_Test.ATS_TestClass@74e52303]" started-at="2024-08-09T00:22:21 IST" name="validate_ClientCreation" finished-at="2024-08-09T00:22:56 IST" duration-ms="35494" status="PASS">
+        <test-method signature="validate_ClientCreation()[pri:1, instance:ats_Test.ATS_TestClass@41a2befb]" started-at="2024-08-10T19:08:16 IST" name="validate_ClientCreation" finished-at="2024-08-10T19:09:11 IST" duration-ms="55145" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Reading data from excelsheet]]>
+              <![CDATA[Clicked on Client]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Create Client]]>
+            </line>
+            <line>
+              <![CDATA[Entered the Company Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[Entered Fax Number]]>
+            </line>
+            <line>
+              <![CDATA[Entered Company Website]]>
+            </line>
+            <line>
+              <![CDATA[Industry Selected]]>
+            </line>
+            <line>
+              <![CDATA[Source Selected]]>
+            </line>
+            <line>
+              <![CDATA[About Company Entered]]>
+            </line>
+            <line>
+              <![CDATA[Entered Street Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered City Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered State Name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Zip Code]]>
+            </line>
+            <line>
+              <![CDATA[Country Selected]]>
             </line>
             <line>
               <![CDATA[Reading data from excelsheet]]>
             </line>
             <line>
-              <![CDATA[Reading data from excelsheet]]>
+              <![CDATA[Contract Uploaded]]>
             </line>
             <line>
               <![CDATA[Reading data from excelsheet]]>
             </line>
             <line>
-              <![CDATA[Reading data from excelsheet]]>
+              <![CDATA[Attached Other uploaded]]>
             </line>
             <line>
-              <![CDATA[Reading data from excelsheet]]>
+              <![CDATA[Clicked on Submit Button]]>
             </line>
             <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from excelsheet]]>
-            </line>
-            <line>
-              <![CDATA[Taking ScreenShot]]>
-            </line>
-            <line>
-              <![CDATA[Saved ScreenShot atC:\Users\vijay\Desktop\Class Notes\Practice Work\ATSvalidate_ClientCreation_09.08.2024.00.22.56.png]]>
+              <![CDATA[Company Creation Varification Success!!!! Test Case Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- validate_ClientCreation -->
