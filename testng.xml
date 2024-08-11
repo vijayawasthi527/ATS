@@ -7,6 +7,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="ats_Test.ATS_TestClass"/>
+      <class name="ats_Test.ATS_Super_Admin"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+

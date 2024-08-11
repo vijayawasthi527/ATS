@@ -25,6 +25,7 @@ import base.Base;
 public class Utility extends Base
 {
 	public static String cName="";
+	public static String passwd="";
 	public static String readingDataFromExcel(int row,int cell) throws EncryptedDocumentException, IOException
 	{
 		Reporter.log("Reading data from excelsheet",false);
@@ -111,11 +112,17 @@ public class Utility extends Base
 		return lName;
 	}
 	
-	public static String phone()
+	public static String cellphone()
 	{
 		Faker faker=new Faker();
 		String cellNumber = faker.phoneNumber().cellPhone();
 		return cellNumber;
+	}
+	public static String phone()
+	{
+		Faker faker=new Faker();
+		String Landline=faker.phoneNumber().subscriberNumber(10);
+		return Landline;
 	}
 	
 	public static String companyName()
@@ -161,7 +168,22 @@ public class Utility extends Base
 		String countryName=faker.address().country();
 		return countryName;
 	}
-	
+	public static String company_Address()
+	{
+		Faker faker=new Faker();
+		String companyAddress = faker.address().fullAddress();
+		return companyAddress;
+	}
+	public static String password()
+	{
+		Faker faker=new Faker();
+		passwd=faker.internet().password(6,7,true,true);
+		return passwd;
+	}
+	public static String confirm_Password()
+	{
+		return passwd;
+	}
 	
 	
 	

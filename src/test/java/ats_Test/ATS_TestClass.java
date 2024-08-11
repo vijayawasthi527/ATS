@@ -35,6 +35,7 @@ public class ATS_TestClass extends Base
 	Meeting_Page meetingPage;
 	Create_Meeting_Page createJob;
 	Client_Page createclient;
+	Manage_Companies_page manageCompanies;
 	
 	@BeforeClass
 	public void launchBrowser() throws InterruptedException
@@ -54,6 +55,8 @@ public class ATS_TestClass extends Base
 		meetingPage=new Meeting_Page(driver);
 		createJob=new Create_Meeting_Page(driver);
 		createclient=new Client_Page(driver);
+		manageCompanies=new Manage_Companies_page(driver);
+		
 		Utility.wait(1500);
 		Utility.scrolling(0,400);
 		Utility.wait(2000);

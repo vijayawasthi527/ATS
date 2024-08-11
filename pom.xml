@@ -27,6 +27,9 @@
       </plugins>
     </pluginManagement>
   </build>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <dependencies>
 	  <!-- https://mvnrepository.com/artifact/log4j/log4j -->
 <dependency>
@@ -66,7 +69,6 @@
     <artifactId>log4j-slf4j-impl</artifactId>
     <version>2.20.0</version>
 </dependency>
-
 
 	  
 		  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->

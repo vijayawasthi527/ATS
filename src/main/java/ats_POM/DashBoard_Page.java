@@ -23,7 +23,7 @@ public class DashBoard_Page
 	@FindBy (xpath = "(//*[@class='nicescroll-cursors'])[1]")private WebElement leftSlider;
 	@FindBy (xpath = "//span[normalize-space()='Task & Meetings']")private WebElement Taskm;
 	@FindBy (xpath = "//*[@href='https://ats.aistechnolabs.pro/clients']")private WebElement clientClick;
-	
+	@FindBy(xpath = "//*[@href='https://ats.aistechnolabs.pro/companies']")private WebElement companies;
 	
 	
 	
@@ -36,6 +36,10 @@ public class DashBoard_Page
 	public void clickMenuOption()
 	{
 		menuOpen.click();
+	}
+	public void click_Companies()
+	{
+		companies.click();
 	}
 	
 	public void clickTaskMeetings()

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ats_Test.ATS_TestClass">
+      <class name="ats_Test.ATS_Super_Admin">
         <methods>
-          <include name="process"/>
+          <include name="startUPProcess"/>
+          <include name="superAdmin_CompanyCreation"/>
           <include name="launchBrowser"/>
-          <include name="validate_ClientCreation"/>
         </methods>
-      </class> <!-- ats_Test.ATS_TestClass -->
+      </class> <!-- ats_Test.ATS_Super_Admin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
